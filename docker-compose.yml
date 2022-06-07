@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  web:
+    image: nginx:alpine
+    container_name: godash-docs
+    volumes:
+      - ./docs_html:/usr/share/nginx/html
+      - ./docss_images:/usr/share/nginx/html/images
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
