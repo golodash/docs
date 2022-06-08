@@ -4,6 +4,7 @@ services:
   web:
     image: nginx:alpine
     container_name: godash-docs
+    restart: always
     volumes:
       - ./docs_html:/usr/share/nginx/html
       - ./docss_images:/usr/share/nginx/html/images
