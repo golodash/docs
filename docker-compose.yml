@@ -7,7 +7,7 @@ services:
     restart: always
     volumes:
       - ./docs_html:/usr/share/nginx/html
-      - ./docss_images:/usr/share/nginx/html/images
+      - ./docs_images:/usr/share/nginx/html/images
     ports:
       - "8080:80"
     environment:
