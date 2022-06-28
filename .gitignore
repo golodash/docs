@@ -12,3 +12,9 @@ docs_html
 # vscode
 
 .vscode
+
+# go
+
+go.mod
+go.sum
+main.go

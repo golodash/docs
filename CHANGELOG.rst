@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-compact): documentation added
 * 🐛 fix(slices-chunk): example script updated
 * 🎉 feat: added workflow
 * 🎉 feat(slices-chunk): new function document added

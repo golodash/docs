@@ -1,5 +1,7 @@
 #! Example
 ```go
+package main
+
 import (
         "fmt"
         "github.com/golodash/godash/slices"
