@@ -5,8 +5,10 @@ import (
         "github.com/golodash/godash/slices"
 )
 
-arg := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9} 
-fmt.Println(slices.Chunk(arg, 2).([][]int))
+func main() {
+        arg := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9} 
+        fmt.Println(slices.Chunk(arg, 2).([][]int))
+}
 ```
 
 #! Output

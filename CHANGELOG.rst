@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🐛 fix(slices-chunk): example script updated
 * 🎉 feat: added workflow
 * 🎉 feat(slices-chunk): new function document added
 * 🐛 fix(docker-compose): container always restarts on crash
