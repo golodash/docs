@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-join): documentation added
 * 🎉 feat(slices-intersection_by): documentation added
 * 🎉 feat(slices-intersection): documentation added
 * 🎉 feat(slices-initial): documentation added
