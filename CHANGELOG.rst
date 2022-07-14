@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-head): documentation added
 * 🎉 feat(slices-from_pairs): documentation added
 * 🎉 feat(slices-flatten_depth): documentation added
 * 🐛 fix(slices-flatten): documentation fix
