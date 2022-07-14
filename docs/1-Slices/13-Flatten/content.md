@@ -1,5 +1,5 @@
 ---
-Title: Flattens
+Title: Flatten
 ---
 
 Flattens slice a single level deep
@@ -13,4 +13,4 @@ Flattens slice a single level deep
 - first `sameTypeAsSlice`
 
 #- Complexity
-- `Flattens` has a complexity of O(n).
+- `Flatten` has a complexity of O(n).
