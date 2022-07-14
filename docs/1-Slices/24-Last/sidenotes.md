@@ -18,7 +18,7 @@ func main() {
 
 #! Output
 ```
-2
+9
 ```
 
 #! Benchmark Output
