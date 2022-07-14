@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-find_index): documentation added
 * 🎉 feat(slices-fill): documentation added
 * 🎉 feat(slices-drop_right): documentation added
 * 🎉 feat(slices-drop_by): documentation added
