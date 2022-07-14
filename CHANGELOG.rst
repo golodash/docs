@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-sorted_unique_by): documentation added
 * 🎉 feat(slices-sorted_unique): documentation added
 * 🐛 fix(slices-sorted_last_index_of): recover files
 * 🎉 feat(slices-sorted_last_index_of): documentation added
