@@ -17,7 +17,7 @@ The `function` takes one element from `slice` variable and one element from `not
 - first `sameTypeAsSlice`
 
 #- Complexity
-- `Difference` has a complexity of O(n*m).
+- `DifferenceBy` has a complexity of O(n*m).
 
 n = length of `slice`
 
