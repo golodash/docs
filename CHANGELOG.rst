@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-drop_by): documentation added
 * 🎉 feat(slices-drop): documentation added
 * 🎉 feat(slices-difference_by): documentation added
 * 🎉 feat(slices-difference): documentation added

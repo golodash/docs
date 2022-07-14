@@ -8,14 +8,14 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func compare(value1, value2 interface{}) bool {
+func isEqual(value1, value2 interface{}) bool {
 	return value1.(int) == value2.(int)
 }
 
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	values := []int{0, 1, 2}
-	fmt.Println(slices.DifferenceBy(arr, values, compare).([]int))
+	fmt.Println(slices.DifferenceBy(arr, values, isEqual).([]int))
 }
 ```
 
