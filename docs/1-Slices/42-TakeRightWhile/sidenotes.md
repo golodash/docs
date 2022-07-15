@@ -8,13 +8,13 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func isEven(input interface{}) bool {
+func isOdd(input interface{}) bool {
 	return input.(int)%2 == 1
 }
 
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.TakeRightWhile(arr, isEven))
+	fmt.Println(slices.TakeRightWhile(arr, isOdd))
 }
 
 ```
