@@ -9,7 +9,7 @@ import (
 )
 
 func isEven(input interface{}) bool {
-	return input.(int)%2 == 0
+	return input.(int)%2 == 1
 }
 
 func main() {
@@ -21,7 +21,7 @@ func main() {
 
 #! Output
 ```
-[0 1 2 3 4 5 6 7 8 9]
+[0 1 2 3 4 5 6 7 8]
 ```
 
 #! Benchmark Output
