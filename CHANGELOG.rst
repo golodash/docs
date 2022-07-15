@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-take_right): documentation added
 * 🎉 feat(slices-take): documentation added
 * 🎉 feat(slices-tail): documentation added
 * 🎉 feat(slices-sorted_unique_by): documentation added
