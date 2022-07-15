@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-zip_map_deep): documentation added
 * 🎉 feat(slices-zip_map): documentation added
 * 🎉 feat(slices-zip_by): documentation added
 * 🎉 feat(slices-zip): documentation added
