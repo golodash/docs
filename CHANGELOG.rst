@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-xor_by): documentation added
 * 🎉 feat(slices-xor): documentation added
 * 🎉 feat(slices-without): documentation added
 * 🎉 feat(slices-unzip): documentation added
