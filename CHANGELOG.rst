@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices-union_by): documentation added
 * 🎉 feat(slices-union): documentation added
 * 🎉 feat(slices-take_while): documentation added
 * 🎉 feat(slices-take_right_while): documentation added
