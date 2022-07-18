@@ -8,13 +8,13 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func makeInt(input interface{}) interface{} {
-	return int(input.(float64))
+func returnSameValue(input interface{}) interface{} {
+	return input.(int)
 }
 
 func main() {
-	arr := []float64{0, 1, 2, 3, 3, 4, 7, 9, 5, 6, 7, 8, 9}
-	fmt.Println(slices.UniqueBy(arr, makeInt))
+	arr := []int{0, 1, 2, 3, 3, 4, 7, 9, 5, 6, 7, 8, 9}
+	fmt.Println(slices.UniqueBy(arr, returnSameValue).([]int))
 }
 ```
 

@@ -11,7 +11,7 @@ import (
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	values := []int{0, 3}
-	fmt.Println(slices.Pull(arr, values))
+	fmt.Println(slices.Pull(arr, values).([]int))
 }
 ```
 

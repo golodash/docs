@@ -10,7 +10,7 @@ import (
 
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.Nth(arr, 3))
+	fmt.Println(slices.Nth(arr, 3).(int))
 }
 ```
 

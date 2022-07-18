@@ -10,7 +10,7 @@ import (
 
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.LastIndexOf(arr, 2, 6))
+	fmt.Println(slices.Last(arr).(int))
 }
 ```
 
@@ -25,9 +25,9 @@ goos: linux
 goarch: amd64
 pkg: github.com/golodash/godash/slices
 cpu: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
-BenchmarkLastIndexOf/slice_size_10-4            32547106                77.40 ns/op
-BenchmarkLastIndexOf/slice_size_100-4           29125891                79.99 ns/op
-BenchmarkLastIndexOf/slice_size_1000-4          25449651                88.73 ns/op
-BenchmarkLastIndexOf/slice_size_10000-4         27468854                90.20 ns/op
-BenchmarkLastIndexOf/slice_size_100000-4        19642573               113.5 ns/op
+BenchmarkLatest/slice_size_10-4                 126150567               21.03 ns/op
+BenchmarkLatest/slice_size_100-4                100000000               22.22 ns/op
+BenchmarkLatest/slice_size_1000-4               125681389               19.42 ns/op
+BenchmarkLatest/slice_size_10000-4              127610109               18.98 ns/op
+BenchmarkLatest/slice_size_100000-4             117456176               18.77 ns/op
 ```

@@ -11,7 +11,7 @@ import (
 func main() {
 	arr := []int{0, 1, 2, 3}
 	values := []string{"A", "B", "C", "D"}
-	fmt.Println(slices.ZipMap(arr, values))
+	fmt.Println(slices.ZipMap(arr, values).(map[int]string))
 }
 ```
 

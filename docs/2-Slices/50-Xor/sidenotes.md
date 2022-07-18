@@ -11,7 +11,7 @@ import (
 func main() {
 	arr1 := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	arr2 := []int{4, 5, 6, 7}
-	fmt.Println(slices.Xor(arr1, arr2))
+	fmt.Println(slices.Xor(arr1, arr2).([]int))
 }
 ```
 

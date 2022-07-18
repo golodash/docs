@@ -8,14 +8,14 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func makeInt(input interface{}) interface{} {
+func returnInt(input interface{}) interface{} {
 	return int(input.(float64))
 }
 
 func main() {
 	arr1 := []float64{0, 1.7, 2, 3, 4.5, 5, 6, 7, 8, 9}
 	arr2 := []float64{4, 5, 6, 7}
-	fmt.Println(slices.XorBy(arr1, arr2, makeInt))
+	fmt.Println(slices.XorBy(arr1, arr2, returnInt).([]float64))
 }
 ```
 

@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🐛 fix: bug fixing on documentations
 * 🎉 feat: added a new quick_start section in docs
 * 🐛 fix: remaining benchmark for las_index_of function documentation
 * 🐛 fix: remaining bugs in functions documentations fixed

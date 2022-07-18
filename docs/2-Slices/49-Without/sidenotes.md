@@ -11,7 +11,7 @@ import (
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	notIncluded := []int{4, 5, 6, 7}
-	fmt.Println(slices.Without(arr, notIncluded))
+	fmt.Println(slices.Without(arr, notIncluded).([]int))
 }
 ```
 

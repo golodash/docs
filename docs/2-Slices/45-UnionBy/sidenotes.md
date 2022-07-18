@@ -15,7 +15,7 @@ func makeInt(input interface{}) interface{} {
 func main() {
 	arr1 := []float64{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	arr2 := []float64{0, 1, 2, 3, 4, 5, 10, 11}
-	fmt.Println(slices.UnionBy(arr1, arr2, makeInt))
+	fmt.Println(slices.UnionBy(arr1, arr2, makeInt).([]float64))
 }
 ```
 

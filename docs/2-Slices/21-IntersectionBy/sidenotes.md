@@ -23,7 +23,7 @@ func isEqual(value1, value2 interface{}) bool {
 
 func main() {
 	arr := [][]int{{0, 1, 2}, {0, 1, 2}, {4}, {4}, {8, 9}}
-	fmt.Println(slices.IntersectionBy(arr, isEqual))
+	fmt.Println(slices.IntersectionBy(arr, isEqual).([]int))
 }
 ```
 

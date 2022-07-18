@@ -14,7 +14,7 @@ func isOdd(input interface{}) bool {
 
 func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.TakeRightWhile(arr, isOdd))
+	fmt.Println(slices.TakeRightWhile(arr, isOdd).([]int))
 }
 ```
 

@@ -9,14 +9,14 @@ import (
 )
 
 func main() {
-	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.Flatten(arr))
+	arr := []interface{}{[]int{0}, [][]int{{1}}, [][][]int{{{2}}}, 3, 4, 5, 6, 7, 8, 9}
+	fmt.Println(slices.Flatten(arr).([]interface{}))
 }
 ```
 
 #! Output
 ```
-[0 1 2 3 4 5 6 7 8 9]
+[0 [1] [[2]] 3 4 5 6 7 8 9]
 ```
 
 #! Benchmark Output

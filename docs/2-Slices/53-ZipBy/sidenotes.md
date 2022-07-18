@@ -8,19 +8,25 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func makeInt(input interface{}) interface{} {
-	return int(input.(int))
+func returnSumOfThemAll(inputs interface{}) interface{} {
+	output := 0
+	literalInputs := inputs.([]int)
+	for i := 0; i < len(literalInputs); i++ {
+		output += literalInputs[i]
+	}
+
+	return output
 }
 
 func main() {
-	arr := [][]int{{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}
-	fmt.Println(slices.ZipBy(arr, makeInt))
+	arr := [][]int{{0, 1}, {2, 3, 4}, {5, 6, 7, 8, 9}}
+	fmt.Println(slices.ZipBy(arr, returnSumOfThemAll).([]int))
 }
 ```
 
 #! Output
 ```
-
+[7 10 11 8 9]
 ```
 
 #! Benchmark Output

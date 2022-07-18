@@ -8,13 +8,13 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-func makeInt(input interface{}) interface{} {
-	return int(input.(float64))
+func returnSameValue(input interface{}) interface{} {
+	return input.(float64)
 }
 
 func main() {
 	arr := []float64{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-	fmt.Println(slices.SortedLastIndexBy(arr, 2.5, makeInt))
+	fmt.Println(slices.SortedLastIndexBy(arr, 2.5, returnSameValue))
 }
 ```
 

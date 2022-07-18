@@ -10,7 +10,7 @@ import (
 
 func main() {
 	arr := []float64{0, 1, 2, 3, 3, 4, 7, 9, 5, 6, 7, 8, 9}
-	fmt.Println(slices.Unique(arr))
+	fmt.Println(slices.Unique(arr).(float64))
 }
 ```
 
