@@ -13,7 +13,6 @@ func main() {
 	arr2 := []int{4, 5, 6, 7}
 	fmt.Println(slices.Xor(arr1, arr2))
 }
-
 ```
 
 #! Output

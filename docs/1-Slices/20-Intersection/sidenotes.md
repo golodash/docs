@@ -12,7 +12,6 @@ func main() {
 	arr := []interface{}{[]interface{}{0, 1, 2, 3, 4}, []interface{}{3, 4}, []interface{}{5, 6, 7, 8, 9}, []interface{}{9}}
 	fmt.Println(slices.Intersection(arr))
 }
-
 ```
 
 #! Output

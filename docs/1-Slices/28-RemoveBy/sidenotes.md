@@ -8,7 +8,6 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-
 func isOdd(n interface{}) bool {
 	return n.(int)%2 != 0
 }
@@ -17,7 +16,6 @@ func main() {
 	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 	fmt.Println(slices.RemoveBy(arr, isOdd))
 }
-
 ```
 
 #! Output

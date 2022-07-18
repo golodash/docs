@@ -17,7 +17,6 @@ func main() {
 	arr2 := []float64{4, 5, 6, 7}
 	fmt.Println(slices.XorBy(arr1, arr2, makeInt))
 }
-
 ```
 
 #! Output

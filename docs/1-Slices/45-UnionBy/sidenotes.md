@@ -17,7 +17,6 @@ func main() {
 	arr2 := []float64{0, 1, 2, 3, 4, 5, 10, 11}
 	fmt.Println(slices.UnionBy(arr1, arr2, makeInt))
 }
-
 ```
 
 #! Output

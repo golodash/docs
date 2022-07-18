@@ -13,7 +13,6 @@ func main() {
 	arr2 := []int{0, 1, 2, 3, 4, 5, 10, 11}
 	fmt.Println(slices.Union(arr1, arr2))
 }
-
 ```
 
 #! Output

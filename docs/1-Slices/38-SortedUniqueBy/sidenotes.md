@@ -8,17 +8,15 @@ import (
 	"github.com/golodash/godash/slices"
 )
 
-
 func main() {
-	arr := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+	arr := []int{0, 0, 0, 1, 1, 2, 3, 4, 5, 5}
 	fmt.Println(slices.SortedUnique(arr))
 }
-
 ```
 
 #! Output
 ```
-[0 1 2 3 4 5 6 7 8 9]
+[0 1 2 3 4 5]
 ```
 
 #! Benchmark Output
@@ -26,10 +24,10 @@ func main() {
 goos: linux
 goarch: amd64
 pkg: github.com/golodash/godash/slices
-cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
-BenchmarkSortedUniqueBy/input_size_10-8                  1475721              1559 ns/op
-BenchmarkSortedUniqueBy/input_size_100-8                   95887             22138 ns/op
-BenchmarkSortedUniqueBy/input_size_1000-8                   9766            248835 ns/op
-BenchmarkSortedUniqueBy/input_size_10000-8                   835           2412745 ns/op
-BenchmarkSortedUniqueBy/input_size_100000-8                   92          26679660 ns/op
+cpu: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+BenchmarkSortedUnique/input_size_10-4            1043737              2333 ns/op
+BenchmarkSortedUnique/input_size_100-4            340372              6989 ns/op
+BenchmarkSortedUnique/input_size_1000-4            43672             53851 ns/op
+BenchmarkSortedUnique/input_size_10000-4            3540            647702 ns/op
+BenchmarkSortedUnique/input_size_100000-4            354           7361202 ns/op
 ```

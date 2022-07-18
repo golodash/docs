@@ -13,7 +13,6 @@ func main() {
 	values := []string{"A", "B", "C"}
 	fmt.Println(slices.ZipMapDeep(keys, values))
 }
-
 ```
 
 #! Output
