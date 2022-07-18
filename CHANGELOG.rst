@@ -4,6 +4,10 @@ CHANGELOG
 UNRELEASED
 ----------
 
+
+1.0.1 (2022-07-19)
+------------------
+
 * 🐛 fix: bug fixing on documentations
 * 🎉 feat: added a new quick_start section in docs
 * 🐛 fix: remaining benchmark for las_index_of function documentation
@@ -68,6 +72,3 @@ UNRELEASED
 * 🎉 feat: added workflow
 * 🎉 feat(slices-chunk): new function document added
 * 🐛 fix(docker-compose): container always restarts on crash
-
-.. 1.0.0 (yyyy-mm-dd)
-.. ------------------
