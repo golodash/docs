@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🐛 fix: remaining benchmark for las_index_of function documentation
 * 🐛 fix: remaining bugs in functions documentations fixed
 * 🎉 feat(slices-zip_map_deep): documentation added
 * 🎉 feat(slices-zip_map): documentation added
