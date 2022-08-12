@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(maths): Round function documentation added
 * 🎉 feat(maths): Power function documentation added
 * 🎉 feat(maths): Multiply function documentation added
 * 🎉 feat(maths): Floor function documentation added
