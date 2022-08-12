@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(maths): Floor function documentation added
 * 🎉 feat(maths): Divide function documentation added
 * 🎉 feat(maths): Ceil function documentation added
 * 🎉 feat(maths): Add function documentation added
