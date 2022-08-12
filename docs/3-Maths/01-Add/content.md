@@ -14,7 +14,7 @@ Adds two numbers.
 
 #- Outputs
 - first `interface`
-- A number of a data which can carry all data of number1 + number2. exp: float32 + int = float32
+- A number of a data which can carry all data of number1 + number2. example: float32 + int = float32
 
 #- Complexity
 - `Add` has a complexity of O(1).

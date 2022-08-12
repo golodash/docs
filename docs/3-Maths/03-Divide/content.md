@@ -14,7 +14,7 @@ Computes number rounded up to `precision`.
 
 #- Outputs
 - first `interface{}`
-- A number which carries result of `number1/number2` and its type is type of the biggest and most detailed in size between types of `number1` and `number2` inputs.
+- A number which carries result of `number1/number2` and its type is type of the biggest and most detailed in size between types of `number1` and `number2` inputs. example: float32 / int = float32
 
 #- Complexity
 - `Divide` has a complexity of O(1).
