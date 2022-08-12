@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(maths): Ceil function documentation added
 * 🎉 feat(maths): Add function documentation added
 
 1.0.1 (2022-07-19)
