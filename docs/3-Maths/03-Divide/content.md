@@ -1,0 +1,20 @@
+---
+Title: Divide
+---
+
+Computes number rounded up to `precision`.
+
+#- Inputs
+- number1 `interface{}`
+- Has to be a number, does not matter what type.
+- number2 `interface{}`
+- Has to be a number, does not matter what type.
+
+**Note**: Passing invalid input causes panic.
+
+#- Outputs
+- first `interface{}`
+- A number which carries result of `number1/number2` and its type is type of the biggest and most detailed in size between types of `number1` and `number2` inputs.
+
+#- Complexity
+- `Divide` has a complexity of O(1).
