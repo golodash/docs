@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(slices): Mean, MeanBy, Max, MaxBy, Min, MinBy, Sum and SumBy documents added and documents reordered
 * 🐛 fix: fixes on slices package
 * 🎉 feat(maths): Subtract function documentation added
 * 🎉 feat(maths): Round function documentation added
