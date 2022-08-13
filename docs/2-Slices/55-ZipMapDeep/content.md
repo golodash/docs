@@ -2,7 +2,7 @@
 Title: ZipMapDeep
 ---
 
-This method is like ZipMap except that it supports property paths
+This method is like [ZipMap](#content-slices-zipmap) except that it supports property paths
 
 #- Inputs
 - keys `[]string`

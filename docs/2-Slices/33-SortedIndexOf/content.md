@@ -2,7 +2,7 @@
 Title: SortedIndexOf
 ---
 
-This method is like IndexOf except that it performs a binary search on a sorted slice.
+This method is like [IndexOf](#content-slices-indexof) except that it performs a binary search on a sorted slice.
 
 #- Inputs
 - slice `[]anything`

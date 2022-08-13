@@ -2,13 +2,11 @@
 Title: RemoveBy
 ---
 
-Removes all elements from slice that the passed function returns true on them
-and returns a slice of remaining elements and a slice of removed elements.
-The passed function will invoke with one argument.
+Removes all elements from slice that the passed 'function' returns true on them and returns a slice of remaining elements and a slice of removed elements. The passed function will invoke with one argument.
 
 #- Inputs
 - slice `[]anything`
-- function `funcWithanythinInputandBollOutput`
+- function `func(interface{}) bool`
 
 
 **Note**: Passing invalid input causes panic.

@@ -7,7 +7,7 @@ Elements are taken until passed function returns false
 
 #- Inputs
 - slice `[]anything`
-- finction `func(interface{}) bool`
+- function `func(interface{}) bool`
 
 
 **Note**: Passing invalid input causes panic.

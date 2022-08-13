@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🐛 fix: fixes on slices package
 * 🎉 feat(maths): Subtract function documentation added
 * 🎉 feat(maths): Round function documentation added
 * 🎉 feat(maths): Power function documentation added

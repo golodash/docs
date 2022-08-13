@@ -3,7 +3,7 @@ Title: ZipBy
 ---
 
 
-This method is like Zip except that it accepts a function to specify
+This method is like [Zip](#content-slices-zip) except that it accepts a function to specify
 how grouped values should be combined.
 
 #- Inputs

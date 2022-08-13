@@ -2,7 +2,7 @@
 Title: XorBy
 ---
 
-This method is like Xor except that it accepts a function which is
+This method is like [Xor](#content-slices-xor) except that it accepts a function which is
 invoked for each element of each slices for comparing them.
 
 #- Inputs

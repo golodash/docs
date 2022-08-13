@@ -2,7 +2,7 @@
 Title: ZipMap
 ---
 
-This method is like FromPairs except that it accepts two slices, one of propert
+This method is like [FromPairs](#content-slices-frompairs) except that it accepts two slices, one of propert
 identifiers and one of corresponding values.
 
 #- Inputs

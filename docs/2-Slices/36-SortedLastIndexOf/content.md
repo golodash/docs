@@ -2,7 +2,7 @@
 Title: SortedLastIndexOf
 ---
 
-This method is like LastIndexOf except that it performs a
+This method is like [LastIndexOf](#content-slices-lastindexof) except that it performs a
 binary search on a sorted slice
 
 #- Inputs

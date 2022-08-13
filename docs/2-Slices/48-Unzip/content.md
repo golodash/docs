@@ -3,7 +3,7 @@ Title: Unzip
 ---
 
 
-This method is like Zip except that it accepts a slice of grouped elements
+This method is like [Zip](#content-slices-zip) except that it accepts a slice of grouped elements
 and creates a slice regrouping the elements to their pre-zip configuration.
 
 #- Inputs

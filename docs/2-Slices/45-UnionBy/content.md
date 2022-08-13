@@ -7,7 +7,7 @@ Returns a slice of unique values, in order, from combine of all given slices.
 #- Inputs
 - slice1 `[]anything`
 - slice2 `[]anything`
-- function `function func(interface{}) interface{}`
+- function `func(interface{}) interface{}`
 
 **Note**: Passing invalid input causes panic.
 
