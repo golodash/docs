@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat: numbers section added
 * 🐛 fix: numbers added to list of functions
 * 🎉 feat(strings): all functions added
 * 🎉 feat(recorder_document): a python file added to reorder the list of content folders
