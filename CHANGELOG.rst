@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat(strings): all functions added
 * 🎉 feat(recorder_document): a python file added to reorder the list of content folders
 * 🎉 feat(slices): Mean, MeanBy, Max, MaxBy, Min, MinBy, Sum and SumBy documents added and documents reordered
 * 🐛 fix: fixes on slices package
