@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🐛 fix: fixed order of numbers section content
 * 🎉 feat: numbers section added
 * 🐛 fix: numbers added to list of functions
 * 🎉 feat(strings): all functions added
