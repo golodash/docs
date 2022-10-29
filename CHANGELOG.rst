@@ -4,6 +4,10 @@ CHANGELOG
 UNRELEASED
 ----------
 
+
+1.2.0 (2022-10-29)
+------------------
+
 * 🎉 feat: same documentation function added
 * 🎉 feat: duplicate documentation function added
 * 🐛 fix: fixed order of numbers section content
