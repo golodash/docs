@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat: duplicate documentation function added
 * 🐛 fix: fixed order of numbers section content
 * 🎉 feat: numbers section added
 * 🐛 fix: numbers added to list of functions
