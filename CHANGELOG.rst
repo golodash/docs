@@ -4,6 +4,7 @@ CHANGELOG
 UNRELEASED
 ----------
 
+* 🎉 feat: added Once, RunAfter and WrapFunc new functions documentations
 
 1.2.0 (2022-10-29)
 ------------------
